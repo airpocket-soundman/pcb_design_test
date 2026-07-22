@@ -19,9 +19,11 @@ CN1 is the optional vertical Grove connector in the upstream design and is DNP i
 | Side | Designator | LCSC | Part |
 |---|---|---|---|
 | Top header | J10 | C19630981 | Kinghelm KH-2.54PH-2X15P-L11.0-SMT |
-| Bottom socket | J11 | C3975160 | HCTL PM254-2-15-S-8.5 |
+| Bottom low-profile socket | J11 | C41382298 | Yxcon F136-1215A0CMUB1, 3.55 mm insulation height |
 
 Both are 2 x 15, 2.54 mm pitch, 2.54 mm row spacing, vertical surface-mount parts. The designators were changed from duplicated upstream identifiers to unique J10/J11 identifiers for assembly data.
+
+The original 8.5 mm-high HCTL socket was rejected as too tall. J11 now uses the 3.55 mm-high Yxcon low-profile socket. The routed upstream pad geometry is retained; compare it with the Yxcon recommended land pattern before releasing the order.
 
 ## Files
 
