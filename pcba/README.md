@@ -27,6 +27,7 @@ The original 8.5 mm-high HCTL socket was rejected as too tall. The PCB was then 
 
 ## Files
 
+- `JLCPCB-BOM.csv` / `JLCPCB-CPL.csv`: strict ASCII JLCPCB templates with one designator per row; use these if the localized order page rejects the richer export.
 - `M5BasicBaseLite-PCBA-JLCPCB-BOM.csv`: UTF-8, comma-separated BOM for direct upload to the JLCPCB order form.
 - `M5BasicBaseLite-PCBA-JLCPCB-CPL.csv`: UTF-8, comma-separated five-column CPL for direct upload to the JLCPCB order form.
 - `M5BasicBaseLite-PCBA-Production-Gerber.zip`: current socket-equipped fabrication package.
