@@ -2,6 +2,21 @@
 
 M5Stack Core向けのPort A/B/C/D/E拡張ベースボードを、EasyEDAで再構築するプロジェクトです。
 
+## Full upstream reproduction
+
+`full-reproduction/` contains a complete EasyEDA import of the upstream `akita11/M5BasicBaseLite` project. Unlike the earlier reduced compatibility design, it retains all optional circuitry, including ten SK6812 side-emitting LEDs, LiPo/battery connectors and jumpers, test pads, the top M5Bus pin header, and the bottom M5Bus pin socket.
+
+The imported PCB was mechanically compared with the upstream KiCad source:
+
+| Item | Upstream | EasyEDA full reproduction |
+|---|---:|---:|
+| Footprints/components | 68 | 68 |
+| Copper segments/traces | 495 | 495 |
+| Vias | 42 | 42 |
+| Copper zones/pours | 2 | 2 |
+
+Use [full-reproduction/README.md](full-reproduction/README.md) for the complete project and manufacturing exports. The earlier `EasyEDA/` and `fabrication/` folders are the reduced, PCBA-oriented compatibility version and are retained for comparison.
+
 ## Design goals
 
 - 50 mm x 50 mm、M5Stack CoreのM-Bus互換形状
