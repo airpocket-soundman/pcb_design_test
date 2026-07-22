@@ -1,0 +1,353 @@
+(PCB "PCB1"
+  (parser
+    (host_cad "EasyEDA Pro")
+    (host_version "3.2.149.88089769")
+  )
+  (resolution mil 1000)
+  (structure
+    (boundary(path signal 0 1929.13 0 39.37 0 0 39.37 0 1929.13 39.37 1968.5 354.33 1968.5 354.33 1850.39 511.81 1850.39 511.81 1968.5 1929.13 1968.5 1968.5 1929.13 1968.5 314.96 1929.13 275.59 1732.28 275.59 1732.28 236.22 1929.13 236.22 1968.5 196.85 1968.5 39.37 1929.13 0 )
+    )
+    (via via0
+    )
+    (grid via   0.25)
+    (grid wire   0.25)
+    (grid place   0.25)
+    (rule(clear 6.03))
+    (rule(clear 6.03 (type default_smd)))
+    (rule(clear 6.03 (type smd_smd)))
+    (rule(width 10.05))
+    (layer TopLayer
+      (type signal)
+    )
+    (layer BottomLayer
+      (type signal)
+    )
+  )
+
+  (placement
+    (component u1
+      (place u1 0 0 front 0
+      )
+    )
+  )
+  (library
+    (image u1
+      (pin p28bb926fcbc3080512 28bb926fcbc3080512 1535.43 1712.6)
+      (pin p28bb926fcbc3080512 28bb926fcbc3080513 1456.69 1712.6)
+      (pin p28bb926fcbc3080512 28bb926fcbc3080514 1377.95 1712.6)
+      (pin p28bb926fcbc3080515 28bb926fcbc3080515 1299.21 1712.6)
+      (pin p28bb926fcbc3080512 85a8c2d5c5163d8e12 1299.21 255.91)
+      (pin p28bb926fcbc3080512 85a8c2d5c5163d8e13 1377.95 255.91)
+      (pin p28bb926fcbc3080512 85a8c2d5c5163d8e14 1456.69 255.91)
+      (pin p85a8c2d5c5163d8e15 85a8c2d5c5163d8e15 1535.43 255.91)
+      (pin p28bb926fcbc3080512 31b1d5c505732a3112 1122.05 1712.6)
+      (pin p28bb926fcbc3080512 31b1d5c505732a3113 1043.31 1712.6)
+      (pin p28bb926fcbc3080512 31b1d5c505732a3114 964.57 1712.6)
+      (pin p28bb926fcbc3080515 31b1d5c505732a3115 885.83 1712.6)
+      (pin p28bb926fcbc3080512 1648254842815c3e12 708.66 1712.6)
+      (pin p28bb926fcbc3080512 1648254842815c3e13 629.92 1712.6)
+      (pin p28bb926fcbc3080512 1648254842815c3e14 551.18 1712.6)
+      (pin p28bb926fcbc3080515 1648254842815c3e15 472.44 1712.6)
+      (pin p28bb926fcbc3080512 572908d49c549ace12 885.83 255.91)
+      (pin p28bb926fcbc3080512 572908d49c549ace13 964.57 255.91)
+      (pin p28bb926fcbc3080512 572908d49c549ace14 1043.31 255.91)
+      (pin p85a8c2d5c5163d8e15 572908d49c549ace15 1122.05 255.91)
+      (pin p28bb926fcbc3080512 0237acab0b81255312 472.44 255.91)
+      (pin p28bb926fcbc3080512 0237acab0b81255313 551.18 255.91)
+      (pin p28bb926fcbc3080512 0237acab0b81255314 629.92 255.91)
+      (pin p85a8c2d5c5163d8e15 0237acab0b81255315 708.66 255.91)
+      (pin pdf682b161b36ce1e7 df682b161b36ce1e7 1230.18 1299.21)
+      (pin pdf682b161b36ce1e7 df682b161b36ce1e8 1289.5 1299.21)
+      (pin pdf682b161b36ce1e7 5791072670b692677 1230.18 1220.47)
+      (pin pdf682b161b36ce1e7 5791072670b692678 1289.5 1220.47)
+      (pin p830df36a9ac9d917 830df36a9ac9d917 118.11 118.11)
+      (pin p830df36a9ac9d917 94bcd0501435166 1850.39 118.11)
+      (pin p830df36a9ac9d917 886f273d0718085 118.11 1850.39)
+      (pin p830df36a9ac9d917 b071b7f8a6c80de 1850.39 1850.39)
+      (pin pb91c5153f0906a33 b91c5153f0906a33 275.59 118.11)
+      (pin pb91c5153f0906a33 74672c00bf7915d0 1692.91 118.11)
+      (pin pb91c5153f0906a33 1fdb998697108e3 236.22 1850.39)
+      (pin pb91c5153f0906a33 98562ad483f6fda 1692.91 1850.39)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1633 125.99 1684.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1634 346.46 1684.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1635 125.99 1584.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1636 346.46 1584.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1637 125.99 1484.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1638 346.46 1484.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1639 125.99 1384.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1640 346.46 1384.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1641 125.99 1284.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1642 346.46 1284.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1643 125.99 1184.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1644 346.46 1184.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1645 125.99 1084.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1646 346.46 1084.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1647 125.99 984.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1648 346.46 984.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1649 125.99 884.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1650 346.46 884.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1651 125.99 784.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1652 346.46 784.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1653 125.99 684.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1654 346.46 684.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1655 125.99 584.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1656 346.46 584.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1657 125.99 484.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1658 346.46 484.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1659 125.99 384.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1660 346.46 384.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1661 125.99 284.25)
+      (pin p8593b38da5f3da1633 8593b38da5f3da1662 346.46 284.25)
+    )
+
+    (padstack via0
+      (shape(circle TopLayer 24))
+      (shape(circle BottomLayer 24))
+    )
+
+    (padstack p28bb926fcbc3080512
+      (shape(circle TopLayer 50 0 0))
+      (shape(circle BottomLayer 50 0 0))
+    )
+    (padstack p28bb926fcbc3080515
+      (shape(polygon TopLayer 0.1 -25 -25 -25 25 -25 25 25 25 25 25 25 -25 25 -25 -25 -25))
+      (shape(polygon BottomLayer 0.1 -25 -25 -25 25 -25 25 25 25 25 25 25 -25 25 -25 -25 -25))
+    )
+    (padstack p85a8c2d5c5163d8e15
+      (shape(polygon TopLayer 0.1 25 25 25 -25 25 -25 -25 -25 -25 -25 -25 25 -25 25 25 25))
+      (shape(polygon BottomLayer 0.1 25 25 25 -25 25 -25 -25 -25 -25 -25 -25 25 -25 25 25 25))
+    )
+    (padstack pdf682b161b36ce1e7
+      (shape(polygon BottomLayer 0.1 15.88 17.01 15.88 -17.01 15.88 -17.01 -15.88 -17.01 -15.88 -17.01 -15.88 17.01 -15.88 17.01 15.88 17.01))
+    )
+    (padstack p830df36a9ac9d917
+      (shape(circle TopLayer 125.98 0 0))
+      (shape(circle BottomLayer 125.98 0 0))
+    )
+    (padstack pb91c5153f0906a33
+      (shape(circle TopLayer 82.68 0 0))
+      (shape(circle BottomLayer 82.68 0 0))
+    )
+    (padstack p8593b38da5f3da1633
+      (shape(polygon TopLayer 0.1 -55.12 25 55.12 25 55.12 25 55.12 -25 55.12 -25 -55.12 -25 -55.12 -25 -55.12 25))
+    )
+  )
+  (network
+    (net GND
+      (pins u1-28bb926fcbc3080512 u1-85a8c2d5c5163d8e12 u1-31b1d5c505732a3112 u1-1648254842815c3e12 u1-572908d49c549ace12 u1-0237acab0b81255312 u1-8593b38da5f3da1633 u1-8593b38da5f3da1635 u1-8593b38da5f3da1637)
+    )
+    (net +3V3
+      (pins u1-df682b161b36ce1e7 u1-5791072670b692677 u1-8593b38da5f3da1644)
+    )
+    (net IO26
+      (pins u1-31b1d5c505732a3114 u1-8593b38da5f3da1642)
+    )
+    (net IO36
+      (pins u1-31b1d5c505732a3115 u1-8593b38da5f3da1636)
+    )
+    (net IO17
+      (pins u1-1648254842815c3e14 u1-8593b38da5f3da1648)
+    )
+    (net IO16
+      (pins u1-1648254842815c3e15 u1-8593b38da5f3da1647)
+    )
+    (net IO35
+      (pins u1-572908d49c549ace14 u1-8593b38da5f3da1634)
+    )
+    (net IO34
+      (pins u1-572908d49c549ace15 u1-8593b38da5f3da1658)
+    )
+    (net IO13
+      (pins u1-0237acab0b81255314 u1-8593b38da5f3da1654)
+    )
+    (net IO5
+      (pins u1-0237acab0b81255315 u1-8593b38da5f3da1652)
+    )
+    (net BAT
+      (pins u1-8593b38da5f3da1662)
+    )
+    (net IO15
+      (pins u1-8593b38da5f3da1655)
+    )
+    (net IO12
+      (pins u1-8593b38da5f3da1653)
+    )
+    (net IO2
+      (pins u1-8593b38da5f3da1651)
+    )
+    (net +5V
+      (pins u1-28bb926fcbc3080513 u1-85a8c2d5c5163d8e13 u1-31b1d5c505732a3113 u1-1648254842815c3e13 u1-572908d49c549ace13 u1-0237acab0b81255313 u1-8593b38da5f3da1660)
+    )
+    (net IO21
+      (pins u1-28bb926fcbc3080514 u1-85a8c2d5c5163d8e14 u1-5791072670b692678 u1-8593b38da5f3da1649)
+    )
+    (net IO22
+      (pins u1-28bb926fcbc3080515 u1-85a8c2d5c5163d8e15 u1-df682b161b36ce1e8 u1-8593b38da5f3da1650)
+    )
+    (class  ''
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class GND 'GND'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class +3V3 '+3V3'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO26 'IO26'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO36 'IO36'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO17 'IO17'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO16 'IO16'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO35 'IO35'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO34 'IO34'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO13 'IO13'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO5 'IO5'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class BAT 'BAT'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO15 'IO15'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO12 'IO12'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO2 'IO2'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class +5V '+5V'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO21 'IO21'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO22 'IO22'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+  )
+
+  (wiring
+  )
+)
