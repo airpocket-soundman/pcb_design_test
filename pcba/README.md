@@ -8,9 +8,9 @@ This directory contains the connector-focused PCBA package derived from the exac
 |---|---|---|---|
 | A | CN2, CN3 | Red | C22390444 / XUNPU WAFER-HY2.0-4PWZ-R62 |
 | B | CN4 | Black | hanxia HX-HY2.0-4PWZ-B; obtain the current JLCPCB/LCSC C-number at quotation |
-| C | CN5 | Blue | No exact-color LCSC catalog match found; customer-supplied or JLCPCB sourcing |
-| D | CN6 | Green | No exact-color LCSC catalog match found; customer-supplied or JLCPCB sourcing |
-| E | CN7 | Yellow | C22390454 / XUNPU WAFER-HY2.0-4PWZ-H62 |
+| C | CN5 | Beige / standard | hanxia HX-HY2.0-4PWZ |
+| D | CN6 | Beige / standard | hanxia HX-HY2.0-4PWZ |
+| E | CN7 | Beige / standard | hanxia HX-HY2.0-4PWZ |
 
 CN1 is the optional vertical Grove connector in the upstream design and is DNP in this release.
 
@@ -33,5 +33,5 @@ Both are 2 x 15, 2.54 mm pitch, 2.54 mm row spacing, vertical surface-mount part
 
 - The Grove electrical pins are through-hole. Select mixed SMT/THT assembly and confirm wave/manual insertion support.
 - Port B is specified by the exact hanxia MPN `HX-HY2.0-4PWZ-B`; the current JLCPCB/LCSC C-number must be selected during component matching.
-- Port C blue and Port D green require consigned parts or a JLCPCB sourcing request. Do not substitute white connectors if color coding is required.
+- Ports C, D, and E use the standard-color hanxia `HX-HY2.0-4PWZ`; select its current JLCPCB/LCSC C-number during component matching.
 - The exact-reproduction PCB still inherits upstream DRC issues described in `../full-reproduction/README.md`. Gerber is provided for review, not as an unconditional order approval, until those electrical DRC items are closed.
