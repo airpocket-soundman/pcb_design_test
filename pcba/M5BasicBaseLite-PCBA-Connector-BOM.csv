@@ -5,5 +5,5 @@ CN5,C,Beige / standard,1,hanxia,HX-HY2.0-4PWZ,,THT / wave solder,Exact MPN selec
 CN6,D,Beige / standard,1,hanxia,HX-HY2.0-4PWZ,,THT / wave solder,Exact MPN selected - obtain JLCPCB/LCSC C-number at quotation
 CN7,E,Beige / standard,1,hanxia,HX-HY2.0-4PWZ,,THT / wave solder,Exact MPN selected - obtain JLCPCB/LCSC C-number at quotation
 J10,M5Bus top,Black,1,Kinghelm,KH-2.54PH-2X15P-L11.0-SMT,C19630981,Top SMT,LCSC matched
-J11,M5Bus bottom,Black,1,Yxcon,F136-1215A0CMUB1,C41382298,Bottom SMT,LCSC matched - 3.55 mm insulation height; verify recommended land pattern
+J11,M5Bus bottom,Black,1,,,,Bottom SMT,BLOCKED - C41382298 rejected: recommended SMD pad-row span 5.82 mm does not match PCB footprint 5.04 mm
 CN1,Optional vertical Grove,Unspecified,1,,,,DNP,Not populated

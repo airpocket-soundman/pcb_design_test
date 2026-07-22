@@ -26,6 +26,6 @@ This directory contains the complete EasyEDA reproduction imported from the upst
 
 ## DRC status
 
-The imported design intentionally preserves the upstream geometry and net assignments. KiCad 9 reports 220 violations on the unmodified upstream board but zero unrouted items. Many violations are legacy-library, silkscreen, solder-mask, and footprint metadata warnings; 17 are `shorting_items`, primarily caused by the upstream bottom M5Bus socket using `unconnected-(CN8-Pad*)` net names on pads that are physically tied to the corresponding top M5Bus nets.
+The imported design intentionally preserves the upstream geometry and net assignments. KiCad 9 reports 220 violations on the unmodified upstream board but zero unrouted items. Many violations are legacy-library, silkscreen, solder-mask, and footprint metadata warnings. The bottom M5Bus socket deliberately uses `unconnected-(CN8-Pad*)` nets for unused contacts, and its pad 30 uses `/BAT`; the top header pad 30 uses `Net-(J1-Pad1)` and reaches `/BAT` through JP1. These assignments must not be normalized without changing the circuit's intended connectivity.
 
-Therefore this directory is an exact reproduction/reference release, not yet a clean PCBA release. A manufacturing-clean derivative should normalize the CN7/CN8 net names, assign orderable supplier parts, then pass EasyEDA DRC without errors before ordering.
+Therefore this directory is an exact reproduction/reference release, not yet a clean PCBA release. A manufacturing-clean derivative must preserve the intended M5Bus and JP1 connectivity, assign orderable supplier parts, synchronize schematic and PCB data, and pass EasyEDA DRC before ordering.
