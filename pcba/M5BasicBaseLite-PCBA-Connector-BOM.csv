@@ -1,6 +1,6 @@
 Designator,Port,Color,Quantity,Manufacturer,Manufacturer Part,LCSC Part,Assembly,Status
 CN2 CN3,A,Red,2,XUNPU,WAFER-HY2.0-4PWZ-R62,C22390444,THT / wave solder,LCSC matched
-CN4,B,Black,1,,PH-4A/black,C9900020526,THT / wave solder,EasyEDA custom LCSC item - verify during quotation
+CN4,B,Black,1,hanxia,HX-HY2.0-4PWZ-B,,THT / wave solder,Exact MPN selected - obtain JLCPCB/LCSC C-number at quotation
 CN5,C,Blue,1,CUSTOM,GROVE-HY2.0-4P-BLUE,,THT / wave solder,Customer supplied or JLCPCB sourcing required
 CN6,D,Green,1,CUSTOM,GROVE-HY2.0-4P-GREEN,,THT / wave solder,Customer supplied or JLCPCB sourcing required
 CN7,E,Yellow,1,XUNPU,WAFER-HY2.0-4PWZ-H62,C22390454,THT / wave solder,LCSC matched
