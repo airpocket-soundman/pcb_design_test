@@ -1,8 +1,26 @@
 # PCBA validation report
 
-Date: 2026-07-22
+Date: 2026-07-24
 
-Release decision: **APPROVED FOR JLCPCB QUOTATION — M5BUS SOCKET REVISION**
+Release decision: **APPROVED FOR JLCPCB QUOTATION — VISUALLY REVIEWED REVISION**
+
+## Browser visual-feedback revision
+
+The final PCB was loaded into `eda-vision-loop` after every material change and
+reviewed as separate top- and bottom-layer views. The visual loop produced these
+final corrections:
+
+- Port labels A/B/C/D/E/A′ were aligned and rotated for normal reading.
+- The optional vertical Grove position is marked `A ALT`.
+- The 50 mm x 50 mm outline, side notches, mounting holes, Grove positions, and
+  the aligned top/bottom M5Bus connectors were checked in the rendered view.
+- CN3/A′ pad 3 was found to be physically unrouted. The initial direct-to-5 V
+  repair was rejected after checking the schematic intent: JP2 must retain the
+  5 V/3.3 V selector. The final bottom-layer track therefore connects CN3 pad 3
+  to JP2 pad 2 on `Net-(CN3-Pad3)`.
+- The final browser render contains 2,232 PCB records. Its sole viewer finding
+  is that 42 `RULE_SELECTOR` records are not rendered; this is a viewer
+  limitation and not a PCB DRC error.
 
 ## M5Bus bottom socket redesign
 
@@ -29,7 +47,7 @@ All 30 J11 pads match the corresponding J10 physical-position nets. Thirty short
 | Copper/clearance errors | 0 | Pass |
 | Physical/via errors | 0 | Pass after applying JLCPCB-capable 0.15 mm minimum drill and 0.25 mm minimum via diameter rules |
 | Connection/unrouted errors | 0 | Pass |
-| Netlist comparison | 1 | Accepted import limitation: the upstream schematic has no separate top M5Bus header symbol, while the PCB contains J10 |
+| Netlist comparison | 1 | Accepted import limitation: the imported schematic uses one M5Bus symbol while the PCB deliberately contains separate J10 top-header and J11 bottom-socket assembly components |
 
 JLCPCB's published standard capability accepts a 0.15 mm via hole with 0.25 mm overall diameter for 2-layer boards, so the existing 0.30 mm drill is within capability. The remaining netlist comparison is not a copper-connectivity error and is documented as a waiver for this imported OSHW design.
 
@@ -50,12 +68,15 @@ JLCPCB's published standard capability accepts a 0.15 mm via hole with 0.25 mm o
 - SHA-256 checksums:
   - BOM: `55E4B6D40A7525113BBEB2632646B71D4821855F717E1F96DAF2432732028EA9`
   - CPL: `D8301D119A64D7F5E9E9DFDF81F362FF28D2120F3F6104F8186E657AEB7DE3DE`
-  - Gerber: `EF77F0EA85CCDD0B6211F3F548D4399409698C2814503029867084A93CA8F8CB`
-  - EasyEDA source: `5B3E82DD87DC39659B3471DC288500BE9C49F34C4EBDD8483D7C9B6294C0575D`
+  - Visually reviewed Gerber: `BAE207FCFB097C02A36448594D64AA6974EEEDA6E9F5C4883BEA29925068C540`
+  - Final EasyEDA source: `C9A4E53F15BD5C3720110B3B7A42A7F2837A315FF043AB299F43463431A3B7FA`
 
 ## Quotation-stage checks
 
-1. Upload the three manufacturing files (`Gerber`, `BOM`, and `CPL`) with `Production` in their names. The `.epro2` file is the editable source and is not uploaded to the order form.
+1. Upload `M5BasicBaseLite-PCBA-Visual-Final-Gerber.zip` plus the existing
+   `M5BasicBaseLite-PCBA-Production-BOM.csv` and
+   `M5BasicBaseLite-PCBA-Production-CPL.csv`. The `.epro2` file is the editable
+   source and is not uploaded to the order form.
 2. Select double-sided SMT plus through-hole assembly; R1/R2 and J11 are bottom-side parts.
 3. Manually map the exact hanxia Grove MPNs and request custom sourcing where no C-number is offered.
 4. Verify the interactive Gerber preview shows the closed 50 mm square outline and all holes.

@@ -1,0 +1,74 @@
+{
+  "projectTitle": "M5BasicBaseLite-Compatible-Final",
+  "records": [
+    {
+      "type": "STRING",
+      "id": "ie424",
+      "set": {"x": 1417.3228, "y": 1605, "angle": 0, "fontSize": 80}
+    },
+    {
+      "type": "STRING",
+      "id": "ie425",
+      "set": {"x": 1003.937, "y": 365, "angle": 0, "fontSize": 80}
+    },
+    {
+      "type": "STRING",
+      "id": "ie426",
+      "set": {"x": 1003.937, "y": 1605, "angle": 0, "fontSize": 80}
+    },
+    {
+      "type": "STRING",
+      "id": "ie427",
+      "set": {"x": 1417.3228, "y": 365, "angle": 0, "fontSize": 80}
+    },
+    {
+      "type": "STRING",
+      "id": "ie428",
+      "set": {"x": 590.5512, "y": 1605, "angle": 0, "fontSize": 80}
+    },
+    {
+      "type": "STRING",
+      "id": "ie429",
+      "set": {"x": 590.5512, "y": 365, "angle": 0, "fontSize": 80}
+    },
+    {
+      "type": "STRING",
+      "id": "ie430",
+      "set": {
+        "x": 1515,
+        "y": 1496.063,
+        "text": "A ALT",
+        "angle": 90,
+        "fontSize": 55
+      }
+    },
+    {
+      "type": "PAD_NET",
+      "id": "[\"PAD_NET\",\"ie64\",\"3\",\"ie20\"]",
+      "set": {"padNet": "Net-(CN3-Pad3)"}
+    }
+  ],
+  "additions": [
+    {
+      "after": {"type": "VIA", "id": "ie493"},
+      "envelope": {
+        "type": "LINE",
+        "ticket": 4001,
+        "id": "059aa22af7cca459"
+      },
+      "payload": {
+        "layerId": 1,
+        "groupId": "",
+        "locked": false,
+        "zIndex": 1001,
+        "partitionId": null,
+        "netName": "Net-(CN3-Pad3)",
+        "startX": 1377.9527559055118,
+        "startY": 255.90551181102364,
+        "endX": 1377.9527559055118,
+        "endY": 157.48031496062993,
+        "width": 31.496062992125985
+      }
+    }
+  ]
+}

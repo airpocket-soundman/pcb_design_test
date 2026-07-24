@@ -31,9 +31,15 @@ The original 8.5 mm-high HCTL socket was rejected as too tall. The PCB was then 
 - `M5BasicBaseLite-PCBA-JLCPCB-BOM.csv`: UTF-8, comma-separated BOM for direct upload to the JLCPCB order form.
 - `M5BasicBaseLite-PCBA-JLCPCB-CPL.csv`: UTF-8, comma-separated five-column CPL for direct upload to the JLCPCB order form.
 - `M5BasicBaseLite-PCBA-Production-Gerber.zip`: current socket-equipped fabrication package.
+- `M5BasicBaseLite-PCBA-Visual-Final-Gerber.zip`: latest package after the
+  browser feedback pass; use this Gerber for the next quotation.
 - `M5BasicBaseLite-PCBA-Production-CPL.csv`: filtered placement file containing the 20 populated references only.
 - `M5BasicBaseLite-PCBA-Production-BOM.csv`: complete production BOM exported from EasyEDA.
 - `M5BasicBaseLite-PCBA-Production.epro2`: editable EasyEDA production project matching these outputs.
+- `../EasyEDA/M5BasicBaseLite-Compatible-Final.epro2`: final editable exchange
+  project with the reviewed labels and CN3-to-JP2 selector routing.
+- `../EasyEDA/visual-final-patch.json` and `../tools/patch_epro2.py`:
+  reproducible review patch used to build the final exchange project.
 - `M5BasicBaseLite-PCBA-Connector-BOM.csv`: connector sourcing details and DNP decisions.
 - Files without `Production` in their names are retained only as historical review artifacts.
 
